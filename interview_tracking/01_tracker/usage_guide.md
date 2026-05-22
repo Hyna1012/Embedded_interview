@@ -33,6 +33,7 @@
 
 ## 文件建议
 
-- 总表用：`master_tracker.md`
-- 单场复盘：复制 `interview_log_template.md`
+- 总表用：`01_tracker/master_tracker.md`
+- 单场复盘：复制 `01_tracker/interview_log_template.md`
+- 题库和详尽问答：看 `02_question_banks/`
 - 如果后面公司变多，可以按公司单独建文件
