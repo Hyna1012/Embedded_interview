@@ -73,3 +73,125 @@
 7. `volatile`
 8. `sizeof / strlen`
 9. `TCP / UDP`
+
+## 7. 专题补充入口
+
+### A. C 语言
+
+1. `static / const / volatile`
+2. 数组和指针
+3. 栈、堆、全局区
+4. 内存对齐和结构体填充
+5. 大小端
+6. 宏函数和 `inline`
+7. 函数指针和回调
+8. 缓冲区溢出和长度检查
+
+对应文件：
+- `c_language_memory_qa.md`
+- `c_advanced_interview_qa.md`
+
+### B. MCU 与板级基础
+
+1. MCU 上电启动流程
+2. 向量表和 `Reset_Handler`
+3. `HardFault` 定位
+4. 时钟树
+5. GPIO / EXTI / Timer / PWM
+6. ADC / DMA / 双缓冲
+7. 看门狗和复位原因
+8. 板子无反应或偶发跑飞排查
+
+对应文件：
+- `mcu_startup_exception_qa.md`
+- `mcu_peripherals_deep_qa.md`
+
+### C. RTOS 与并发
+
+1. 任务状态
+2. 抢占式调度
+3. 上下文切换
+4. `SysTick / PendSV`
+5. 信号量、互斥锁、事件、队列
+6. 临界区和原子性
+7. 优先级反转
+8. 任务栈和实时性
+
+对应文件：
+- `rtos_interrupt_concurrency_qa.md`
+- `rtos_deep_interview_qa.md`
+- `freertos_core_interview_qa.md`
+
+### D. 通信与驱动
+
+1. 外设驱动编写步骤
+2. 读不到外设 ID 排查
+3. `UART / IIC / SPI / CAN / RS-485`
+4. 串口 DMA、空闲中断、环形缓冲
+5. 帧头、长度、校验、`TLV`
+6. 协议状态机
+7. 示波器和逻辑分析仪调试
+
+对应文件：
+- `driver_communication_debug_qa.md`
+- `communication_bus_deep_qa.md`
+- `communication_protocols_knowledge_and_interview_qa.md`
+
+### E. 工程化与系统
+
+1. 编译、链接、启动文件
+2. 链接脚本和 `map` 文件
+3. Flash 写入和参数保存
+4. Bootloader / IAP / 固件升级
+5. 嵌入式 Linux 基础
+6. 八股到项目表达桥接
+
+对应文件：
+- `compiler_linker_build_qa.md`
+- `bootloader_flash_upgrade_qa.md`
+- `embedded_linux_intro_qa.md`
+- `bagu_project_bridge_answers.md`
+
+## 8. FreeRTOS 高频新增题
+
+1. FreeRTOS 任务有哪些状态？`Blocked` 和 `Suspended` 有什么区别？
+2. FreeRTOS 的调度机制是什么？高优先级任务为什么不能一直运行？
+3. `vTaskDelay()` 和 `vTaskDelayUntil()` 有什么区别？
+4. 队列、信号量、互斥锁分别适合什么场景？
+5. 什么是优先级反转？互斥锁为什么能缓解它？
+6. 中断里为什么要用 `FromISR` API？
+7. `configMAX_SYSCALL_INTERRUPT_PRIORITY` 有什么作用？
+8. 任务栈溢出怎么排查？为什么大数组不适合放任务栈？
+9. 软件定时器回调里为什么不适合做耗时操作？
+10. 项目里为什么要用帧完成队列？
+
+对应文件：
+- `freertos_core_interview_qa.md`
+
+## 9. 大厂嵌入式综合新增题
+
+1. `volatile` 的作用是什么？为什么它不等于线程安全？
+2. 数组名和指针有什么区别？
+3. 结构体对齐会影响什么？协议解析为什么要注意对齐和端序？
+4. MCU 上电到 `main()` 前发生了什么？
+5. HardFault 怎么排查？
+6. IIC 无 ACK 怎么查？
+7. SPI 数据错位怎么查？
+8. UART 乱码有哪些原因？
+9. DMA 和 Cache 为什么会有一致性问题？
+10. 如果系统偶现卡死，你怎么定位是真死机还是某个任务饿死？
+
+对应文件：
+- `big_company_embedded_interview_questions.md`
+
+## 10. 复习路线入口
+
+如果不知道先看哪份材料，优先按路线执行：
+
+- `embedded_review_route_v2.md`
+
+推荐顺序：
+
+1. 先看 3 天急救路线，建立主线。
+2. 再看 7 天稳态路线，补齐八股。
+3. 最后看 14 天强化路线，做大厂风格模拟。

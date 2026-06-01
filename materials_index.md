@@ -47,6 +47,36 @@
   Cache 专题整理与面试问答
 - `communication_protocols_knowledge_and_interview_qa.md`
   通信协议专题整理与面试问答
+- `c_language_memory_qa.md`
+  C 语言与内存高频问答
+- `mcu_startup_exception_qa.md`
+  MCU 启动、异常与基础外设问答
+- `rtos_interrupt_concurrency_qa.md`
+  RTOS、中断与并发高频问答
+- `driver_communication_debug_qa.md`
+  驱动、通信与调试高频问答
+- `bootloader_flash_upgrade_qa.md`
+  Flash、Bootloader 与升级高频问答
+- `embedded_linux_intro_qa.md`
+  嵌入式 Linux 入门高频问答
+- `bagu_project_bridge_answers.md`
+  八股到项目表达桥接模板
+- `compiler_linker_build_qa.md`
+  编译、链接与工程构建高频问答
+- `mcu_peripherals_deep_qa.md`
+  MCU 外设与板级调试深挖问答
+- `rtos_deep_interview_qa.md`
+  RTOS 深挖面试问答
+- `freertos_core_interview_qa.md`
+  FreeRTOS 核心知识点与项目化面试问答
+- `communication_bus_deep_qa.md`
+  通信总线深挖面试问答
+- `c_advanced_interview_qa.md`
+  C 语言进阶与嵌入式代码质量问答
+- `big_company_embedded_interview_questions.md`
+  大厂嵌入式软件真题方向整理
+- `embedded_review_route_v2.md`
+  嵌入式面试 3/7/14 天复习路线
 
 #### 归档
 
@@ -83,6 +113,17 @@
 - `doppler_simulator_memory.md`
   项目长期记忆索引
 
+#### 新思科技企业赛项目
+
+路径：`resume_materials/01_projects/03_synopsys_vital_sign/`
+
+- `synopsys_vital_sign_project.md`
+  简历项目经历
+- `synopsys_vital_sign_interview_qa.md`
+  项目面试问答
+- `synopsys_vital_sign_memory.md`
+  项目长期记忆索引
+
 ### 4. 实习材料
 
 路径：`resume_materials/02_internship/01_midea/`
@@ -105,6 +146,19 @@
 
 - `resume_mock_interview_100qa.md`
   简历模拟面试 100 题
+- `project_deep_dive_optimized_qa.md`
+  项目深挖优化问答总表
+
+### 6. 秋招招聘跟踪
+
+路径：`recruitment_tracking/`
+
+- `daily_recruitment_sync.md`
+  每日招聘信息同步表
+- `application_tracker.md`
+  秋招投递看板
+- `recruitment_sources_and_rules.md`
+  招聘信息源与岗位筛选规则
 
 ## 推荐使用方式
 
@@ -113,3 +167,4 @@
 3. 要改简历项目经历时，优先看 `resume_materials/01_projects/`
 4. 要准备实习追问时，优先看 `resume_materials/02_internship/01_midea/`
 5. 要做快速模拟面试时，优先看 `resume_materials/04_mock_interviews/`
+6. 要跟踪秋招岗位时，优先看 `recruitment_tracking/daily_recruitment_sync.md`
