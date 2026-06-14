@@ -27,6 +27,8 @@
   八股题库
 - `embedded_bagu_detailed_qa.md`
   八股详细回答
+- `embedded_bagu_visual_notes.md`
+  嵌入式八股图解手册，覆盖 44 个知识点，包含 Mermaid 图和 GPT-Image2 信息图提示词
 - `adc_knowledge_and_interview_qa.md`
   ADC 专题整理与面试问答
 - `mpu_knowledge_and_interview_qa.md`
@@ -88,25 +90,26 @@
 
 1. 要准备项目和实习追问，优先看 `01_interview_details/`
 2. 要集中背八股，优先看 `02_bagu/`
-3. 要专门补 ADC，直接看 `adc_knowledge_and_interview_qa.md`
-4. 要专门补 MPU，直接看 `mpu_knowledge_and_interview_qa.md`
-5. 要专门补 Cache，直接看 `cache_knowledge_and_interview_qa.md`
-6. 要专门补通信协议，直接看 `communication_protocols_knowledge_and_interview_qa.md`
-7. 要补 C 语言、指针和内存，直接看 `c_language_memory_qa.md`
-8. 要补 MCU 启动和异常，直接看 `mcu_startup_exception_qa.md`
-9. 要补 RTOS 和并发，直接看 `rtos_interrupt_concurrency_qa.md`
-10. 要补驱动调试和串口协议，直接看 `driver_communication_debug_qa.md`
-11. 要补 Bootloader 和升级，直接看 `bootloader_flash_upgrade_qa.md`
-12. 要补 Linux 入门，直接看 `embedded_linux_intro_qa.md`
-13. 要把八股说到项目上，直接看 `bagu_project_bridge_answers.md`
-14. 要补编译、链接、构建，直接看 `compiler_linker_build_qa.md`
-15. 要补 MCU 外设和板级调试，直接看 `mcu_peripherals_deep_qa.md`
-16. 要深挖 RTOS 面试，直接看 `rtos_deep_interview_qa.md`
-17. 要深挖通信总线，直接看 `communication_bus_deep_qa.md`
-18. 要补 C 语言进阶和代码质量，直接看 `c_advanced_interview_qa.md`
-19. 要专门补 FreeRTOS，直接看 `freertos_core_interview_qa.md`
-20. 要按大厂真题风格刷题，直接看 `big_company_embedded_interview_questions.md`
-21. 要按 3/7/14 天路线复习，直接看 `embedded_review_route_v2.md`
+3. 要用图理解八股，直接看 `embedded_bagu_visual_notes.md`
+4. 要专门补 ADC，直接看 `adc_knowledge_and_interview_qa.md`
+5. 要专门补 MPU，直接看 `mpu_knowledge_and_interview_qa.md`
+6. 要专门补 Cache，直接看 `cache_knowledge_and_interview_qa.md`
+7. 要专门补通信协议，直接看 `communication_protocols_knowledge_and_interview_qa.md`
+8. 要补 C 语言、指针和内存，直接看 `c_language_memory_qa.md`
+9. 要补 MCU 启动和异常，直接看 `mcu_startup_exception_qa.md`
+10. 要补 RTOS 和并发，直接看 `rtos_interrupt_concurrency_qa.md`
+11. 要补驱动调试和串口协议，直接看 `driver_communication_debug_qa.md`
+12. 要补 Bootloader 和升级，直接看 `bootloader_flash_upgrade_qa.md`
+13. 要补 Linux 入门，直接看 `embedded_linux_intro_qa.md`
+14. 要把八股说到项目上，直接看 `bagu_project_bridge_answers.md`
+15. 要补编译、链接、构建，直接看 `compiler_linker_build_qa.md`
+16. 要补 MCU 外设和板级调试，直接看 `mcu_peripherals_deep_qa.md`
+17. 要深挖 RTOS 面试，直接看 `rtos_deep_interview_qa.md`
+18. 要深挖通信总线，直接看 `communication_bus_deep_qa.md`
+19. 要补 C 语言进阶和代码质量，直接看 `c_advanced_interview_qa.md`
+20. 要专门补 FreeRTOS，直接看 `freertos_core_interview_qa.md`
+21. 要按大厂真题风格刷题，直接看 `big_company_embedded_interview_questions.md`
+22. 要按 3/7/14 天路线复习，直接看 `embedded_review_route_v2.md`
 
 ## 建议复习路径
 
